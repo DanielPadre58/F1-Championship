@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace F1_Championship
+{
+    internal class Teams
+    { 
+        public string driver1;
+
+        public string driver2;
+
+        public int points
+        {
+
+        }
+
+        public int position;
+
+        public float carAdvantage;
+
+        public Teams()
+        {
+            points = 0;           
+        }
+    }
+}
